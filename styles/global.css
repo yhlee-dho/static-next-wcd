@@ -25,3 +25,9 @@ img {
   max-width: 100%;
   display: block;
 }
+
+
+/* ./styles/globals.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
