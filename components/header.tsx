@@ -17,12 +17,12 @@ const links: NavRef[] = [
 		label: 'Home'
 	},
 	{
-		href: '/about',
-		label: 'About'
+		href: '/services',
+		label: 'Our Services'
 	},
 	{
 		href: '/contact',
-		label: 'Contact'
+		label: 'Get in touch'
 	}
 ];
 
@@ -44,6 +44,7 @@ const Header = ({ props }: HeaderProps) => {
 		</li>
 	));
 
+
 	const navPlacement = (
 		<div
 			className={
@@ -58,23 +59,19 @@ const Header = ({ props }: HeaderProps) => {
 				<br />
 					
 					<p className='tracking-widest mx-auto inline-flex min-w-full text-lg md:text-6xl mb-2 text-center justify-center px-5 antialiased '>
-						Windy&nbsp;City&nbsp;Devs
+						Mobile&nbsp;Nav
 					</p>
 					
-					<p className='my-1'>Windy City Devs</p>
 				</div>
 			) : (
 				<div className='bg-transparent cursor-pointer flex flex-col flex-grow w-full text-1xl md:text-6xl text-center justify-center mx-auto my-0 uppercase text-white '>
 					<br />
 
 					<p className='mx-auto tracking-widest md:text-1x1 md:tracking-widest inline-flex px-auto min-w-full text-center justify-center antialiased '>
-							Windy&nbsp;City&nbsp;Devs
+							Desktop&nbsp;Nav
 							
 					</p>{' '}
 
-					<p className='md:text-3xl opacity-75 tracking-widest mx-auto inline-flex min-w-full text-2xl text-center justify-center px-5 antialiased transform transition-colors duration-1000'>
-					Windy City Devs
-					</p>
 				</div>
 			)}
 			<div
@@ -92,7 +89,6 @@ const Header = ({ props }: HeaderProps) => {
 
 	const heightOnOpen = navOpen ? ' h-whole' : ' h-threeFifths';
 	const heightOnOpenSm = navOpen ? ' h-whole' : ' h-twoFifths';
-	const pulseOnOpen = navOpen ? ' animate-none' : ' animate-pulse';
 
 	const nav = (
 		<nav
@@ -100,7 +96,7 @@ const Header = ({ props }: HeaderProps) => {
 		>
 			<Container>
 				<div
-					className={`xl:h-twoFifths lg:h-twoFifths md:h-threeFifths sm:${heightOnOpenSm} ${heightOnOpen} transform duration-2000 absolute transition-all bg-opacity-10 ${!pulseOnOpen} bg-lighterBlack flex flex-row w-full bg-contain antialiased`}
+					className={`xl:h-twoFifths lg:h-twoFifths md:h-threeFifths sm:${heightOnOpenSm} ${heightOnOpen} transform duration-2000 absolute transition-all bg-opacity-10 bg-lighterBlack flex flex-row w-full bg-contain antialiased`}
 					style={{
 						backgroundImage: `url(https://res.cloudinary.com/yongstal/image/upload/v1614733230/portfolio/profile_top1C_av0f89.jpg)`,
 						backgroundRepeat: 'no-repeat',
@@ -160,9 +156,7 @@ const Header = ({ props }: HeaderProps) => {
 							</div>
 							<div className='overflow-hidden'>
 								<Fragment>
-									{/* {logoT} removed for UI/UX testing */}
 									{navPlacement}
-									{/* {logoB} */}
 								</Fragment>
 							</div>
 						</div>
