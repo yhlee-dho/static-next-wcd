@@ -17,7 +17,7 @@ const Body = ({ props }: BodyProps) => {
 								<div>
 									<span className={`h-12 w-12 rounded-md flex items-center justify-center bg-indigo-600`}>
 										<svg className={`h-6 w-6 text-white`} xmlns={`http://www.w3.org/2000/svg`} fill={`none`} viewBox={`0 0 24 24`} stroke={``} aria-hidden={`true`}>
-                  		<path stroke-linecap={`round`} stroke-linejoin={`round`} stroke-width={`2`} d={`M20 13V6a2 2 0 00-2-2H6a2 2 0 00-2 2v7m16 0v5a2 2 0 01-2 2H6a2 2 0 01-2-2v-5m16 0h-2.586a1 1 0 00-.707.293l-2.414 2.414a1 1 0 01-.707.293h-3.172a1 1 0 01-.707-.293l-2.414-2.414A1 1 0 006.586 13H4`} />
+                  		<path strokeLinecap={`round`} strokeLinejoin={`round`} strokeWidth={`2`} d={`M20 13V6a2 2 0 00-2-2H6a2 2 0 00-2 2v7m16 0v5a2 2 0 01-2 2H6a2 2 0 01-2-2v-5m16 0h-2.586a1 1 0 00-.707.293l-2.414 2.414a1 1 0 01-.707.293h-3.172a1 1 0 01-.707-.293l-2.414-2.414A1 1 0 006.586 13H4`} />
 										</svg>
 									</span>
 								</div>
@@ -80,8 +80,8 @@ const Body = ({ props }: BodyProps) => {
 											xmlns={`http://www.w3.org/2000/svg`} fill={`none`} viewBox={`0 0 24 24`} stroke={`currentColor`} aria-hidden={`true`}
 										>
 											<path
-												stroke-linecap={`round`}
-												stroke-linejoin={`round`} stroke-width={`2`}
+												strokeLinecap={`round`}
+												strokeLinejoin={`round`} strokeWidth={`2`}
 												d={`M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z`}/>
 										</svg>
 									</span>
