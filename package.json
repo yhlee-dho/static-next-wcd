@@ -14,6 +14,7 @@
  },
  "dependencies": {
   "@fortawesome/fontawesome-svg-core": "^1.2.35",
+  "@tailwindcss/typography": "^0.4.0",
   "date-fns": "^2.11.1",
   "gray-matter": "^4.0.2",
   "next": "^10.0.0",
@@ -21,6 +22,8 @@
   "react": "17.0.1",
   "react-dom": "17.0.1",
   "react-markdown": "^6.0.2",
+  "react-syntax-highlighter": "^15.4.3",
+  "react-typography": "^0.16.20",
   "remark": "^12.0.0",
   "remark-html": "^12.0.0",
   "tailwindcss-gradients": "^3.0.0"
@@ -36,6 +39,7 @@
   "rehype-raw": "^5.1.0",
   "rehype-sanitize": "^4.0.0",
   "tailwindcss": "^2.1.2",
-  "typescript": "^4.2.3"
+  "typescript": "^4.2.3",
+  "vercel": "^22.0.1"
  }
 }
