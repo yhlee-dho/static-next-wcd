@@ -1,5 +1,7 @@
 import { Fragment, useState } from 'react';
 import Container from 'components/container';
+import Post from 'types/post';
+
 
 type BodyProps = {
 	props: string | number
