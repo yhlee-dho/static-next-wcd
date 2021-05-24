@@ -6,7 +6,7 @@ import Head from 'next/head';
 
 import Container from 'components/container';
 import Body from 'components/body';
-import MoreCards from 'components/more-cards';
+// import MoreCards from 'components/more-cards';
 
 import { getAllPosts } from 'lib/api';
 import { CMS_NAME } from 'lib/constants';
@@ -20,7 +20,7 @@ type Props = {
 };
 
 const Index = ({ allPosts, props, preview }: Props) => {
-	const morePosts = allPosts.slice(0);
+	// const morePosts = allPosts.slice(0);
 
 	return (
 		<>
