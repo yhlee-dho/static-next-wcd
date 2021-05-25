@@ -45,6 +45,7 @@ module.exports = {
 				wiggle: 'wiggle 1s ease-in-out infinite'
 			},
 			fontFamily: {
+				menu: ['Roboto', 'sans-serif'],
 				header: ['Playfair Display', 'serif'],
 				body: ['Barlow Condensed', 'sans-serif'],
 				display: ['Barlow Condensed', 'sans-serif'],
