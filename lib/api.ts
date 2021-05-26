@@ -2,6 +2,13 @@ import fs from 'fs';
 import { join } from 'path';
 import matter from 'gray-matter';
 
+// --- Nav classNames ---
+
+// export function classNames(...classes) {
+// 	return classes.filter(Boolean).join(' ')
+// }
+
+
 // --- Posts ---
 
 const postsDirectory = join(process.cwd(), '_posts');
