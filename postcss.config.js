@@ -10,6 +10,8 @@ module.exports = {
 	plugins: [
 		'tailwindcss',
 		'autoprefixer',
+		'forms',
+		'aspect-ratio',
 		'postcss-flexbugs-fixes',
 		// ...(process.env.NODE_ENV === 'production' ? [purgecss] : []),
 		[
