@@ -64,12 +64,12 @@ body::-webkit-scrollbar {
 
 /* Write custom utilities here */
 
-.html {
+/* .html {
 	@apply font-header;
 	@apply font-body;
 	@apply font-polished;
 	@apply font-subpolished;
-}
+} */
 
 .has-text-align-left {
 	@apply text-left;
