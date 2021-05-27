@@ -46,7 +46,7 @@ const Header = ({ props }: HeaderProps) => {
 
 					<p className={`mt-1 text-4xl font-extrabold text-white sm:text-5xl sm:tracking-tight lg:text-4xl`}>Built with the future in mind</p>
 					<li className={`max-w-xl mt-5 text-xl text-indigo-100`}>Technology advances each day</li>
-					<li className={`max-w-xl mt-5 text-xl text-indigo-100`}>We develop our websites with the language of the future</li>
+					<li className={`max-w-xl mt-5 text-xl text-indigo-100`}>We develop our websites with compatability in mind</li>
 					<br></br>
 
 					<a
