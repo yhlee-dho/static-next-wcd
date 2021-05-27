@@ -2,10 +2,16 @@ import fs from 'fs';
 import { join } from 'path';
 import matter from 'gray-matter';
 
-// --- Nav classNames ---
+// --- Nav sticky ---
 
-// export function classNames(...classes) {
-// 	return classes.filter(Boolean).join(' ')
+// export function stickyNav( sticky : number ) {
+// 	const navbar = document.getElementById("navbar");
+// 	const sticky = navbar?.offsetTop;
+// 	if (window.pageYOffset >= sticky ) {
+// 		navbar?.classList.add("sticky")
+// 	} else {
+// 		navbar?.classList.remove("sticky");
+// 	}
 // }
 
 

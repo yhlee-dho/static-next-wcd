@@ -10,10 +10,10 @@ type BodyProps = {
 const Body = ({ props }: BodyProps) => {
 
 	const body = (
-		<Container>
-			<div className={`relative bg-white pt-16 pb-32 overflow-hidden`}>
-				<div className={`relative`}>
-					<div className={`lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24`}>
+		<>
+			<div className={`relative bg-tailwindBlue`}>
+				<div className={`absolute inest-0`}>
+					<div className={`absolute inset-0 bg-indigo-800 mix-blend-multiply`}>
 						<div className={`px-4 max-w-xl mx-auto sm:px-6 lg:py-16 lg:max-w-none lg:mx-0 lg:px-0`}>
 							<div>
 								<div>
@@ -115,7 +115,7 @@ const Body = ({ props }: BodyProps) => {
 					</div>
 				</div>
 			</div>
-		</Container>
+		</>
 	)
 
 	return (

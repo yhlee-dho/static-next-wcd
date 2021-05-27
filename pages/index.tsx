@@ -24,13 +24,24 @@ const Index = ({ allPosts, props, preview }: Props) => {
 
 	return (
 		<>
-			<Nav props={props} />
-			<Header props={props} />
 			<Layout preview={preview}>
 				<Head>
 					<title>Website made by {CMS_NAME}</title>
 				</Head>
+
+				{/* sticky nav */}
+				<div className={`sticky top-0 z-50`}>
+						<Nav props={props}/>
+				</div>
 				<Container>
+					<Header props={props} />
+
+					{/* tech stack introduction - blog format */}
+					{/* tech stack articles */}
+
+					{/* past projects */}
+					{/* project cards */}
+					
 					<Body props={props} />
 					{/* <div className={`max-w-5x1 mt-5 mb-5 grid mx-auto content-center justify-center items-center text-center`}>
 						{morePosts.length > 0 && <MoreCards posts={morePosts} />}

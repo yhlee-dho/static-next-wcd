@@ -38,7 +38,7 @@ const Nav = ({ props }: NavProps) => {
 		<li className={`nav-item`} key={`${link.href}-${link.label}`}>
 			<Link href={link.href}>
 				<a
-					className={`border-transparent text-oneFiveBlack hover:border-lighterBlack hover:text-tailwindBlue
+					className={`border-transparent text-oneFiveBlack hover:border-tailwindBlue hover:text-tailwindBlue
 											block pl-3 pr-4 py-2 border-l-4 text-base font-medium sm:pl-5 sm:pr-6`}
 					aria-label={link.label}
 				>
@@ -52,7 +52,7 @@ const Nav = ({ props }: NavProps) => {
 	const nav = (
 		<Disclosure as={`nav`} className={`bg-blizzardBlue`}>
 			{({ open }) => (
-				<Container>
+				<>
 					<div className={`max-w-7xl mx-auto px-4 sm:px-6 lg:px-8`}>
 						<div className={`flex justify-between h-16`}>
 							<div className={`flex`}>
@@ -104,7 +104,7 @@ const Nav = ({ props }: NavProps) => {
 							</ul>
 						</div>
 					</Disclosure.Panel>
-				</Container>
+				</>
 			)}
 		</Disclosure>
 	);

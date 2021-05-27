@@ -64,6 +64,12 @@ body::-webkit-scrollbar {
 
 /* Write custom utilities here */
 
+/* .sticky {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	padding-top: 14
+} */
 /* .html {
 	@apply font-header;
 	@apply font-body;

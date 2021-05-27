@@ -30,6 +30,7 @@ module.exports = {
       success: '#0070f3',
       cyan: '#79FFE1',
       blizzardBlue: '#b3ddf2',
+      snowBlue:'#def2ff',
       chicagoRed: '#ff0000',
       darkerRed: '#B8242C',
       wcdPink: '#eb57a3',
