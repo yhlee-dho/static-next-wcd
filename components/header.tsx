@@ -37,7 +37,7 @@ const Header = ({ props }: HeaderProps) => {
 					/>
 					<div className={`relative max-w-7xl mx-auto py-24 px-4 sm:py-32 sm:px-6 lg:px-8`}>
 					<h2 className={`text-4xl font-extrabold tracking-tight text-indigo-100 sm:text-5xl lg:text-6xl`}>Web applications that represent - </h2>
-					<br></br>
+					<br></br><br></br>
 					
 					<p className={`mt-1 text-4xl font-extrabold text-white sm:text-5xl sm:tracking-tight lg:text-4xl`}>Customized to your vision</p>
 					<li className={`max-w-xl mt-5 text-xl text-indigo-100`}>Your story begins with a vision</li>
