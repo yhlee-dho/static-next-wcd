@@ -23,6 +23,7 @@ const Header = ({ props }: HeaderProps) => {
 		<Container>
 			<div className={`relative h-full`}>
 				<div className={`absolute inset-0 w-full h-5/6 object-cover`}>
+					{/* Background Image */}
 					{/* <img
 						className={`w-full h-5/6 object-cover`}
 						// src={`https://res.cloudinary.com/yongstal/image/upload/v1622155397/portfolio/18410_ymlums.jpg`}

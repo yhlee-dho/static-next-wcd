@@ -5,7 +5,7 @@ import Layout from 'components/layout';
 import Head from 'next/head';
 
 import Container from 'components/container';
-import Body from 'components/body';
+import blog from 'components/blog';
 // import MoreCards from 'components/more-cards';
 
 import { getAllPosts } from 'lib/api';
@@ -42,7 +42,7 @@ const Index = ({ allPosts, props, preview }: Props) => {
 					{/* past projects */}
 					{/* project cards */}
 					
-					<Body props={props} />
+					<Blog props={props} />
 					{/* <div className={`max-w-5x1 mt-5 mb-5 grid mx-auto content-center justify-center items-center text-center`}>
 						{morePosts.length > 0 && <MoreCards posts={morePosts} />}
 					</div> */}
