@@ -37,7 +37,7 @@ const Index = ({ allPosts, props, preview }: Props) => {
 				<Container>
 					<Header props={props} />
 
-					{/* tech stack introduction - blog format */}
+					{/* tech introduction - blog format */}
 					{/* tech stack articles */}
 					<Blog props={props} />
 
@@ -45,7 +45,7 @@ const Index = ({ allPosts, props, preview }: Props) => {
 					<Testimonial props={props} />
 
 					{/* business partners */}
-
+					
 					{/* past projects */}
 					{/* project cards */}
 					

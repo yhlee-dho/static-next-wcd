@@ -7,18 +7,6 @@ type HeaderProps = {
 
 const Header = ({ props }: HeaderProps) => {
 
-	// const headerTop = (
-	// 	<Container>
-	// 		<div className={`bg-tailwindBlue`}>
-	// 			<div className={`text-center`}>
-	// 				<h1 className={`text4x1 font-extrabold tracking-tight text-white sm:text-5x1 lg:text-6x1`}>
-	// 					Who needs online presence?
-	// 				</h1>
-	// 			</div>
-	// 		</div>
-	// 	</Container>
-	// )
-
 	const header = (
 		<Container>
 			<div className={`relative h-full`}>
