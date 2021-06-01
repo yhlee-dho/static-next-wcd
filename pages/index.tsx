@@ -5,7 +5,8 @@ import Layout from 'components/layout';
 import Head from 'next/head';
 
 import Container from 'components/container';
-import blog from 'components/blog';
+import Blog from 'components/blog';
+import Testimonial from 'components/testimonial';
 // import MoreCards from 'components/more-cards';
 
 import { getAllPosts } from 'lib/api';
@@ -38,11 +39,17 @@ const Index = ({ allPosts, props, preview }: Props) => {
 
 					{/* tech stack introduction - blog format */}
 					{/* tech stack articles */}
+					<Blog props={props} />
+
+					{/* testimonials */}
+					<Testimonial props={props} />
+
+					{/* business partners */}
 
 					{/* past projects */}
 					{/* project cards */}
 					
-					<Blog props={props} />
+
 					{/* <div className={`max-w-5x1 mt-5 mb-5 grid mx-auto content-center justify-center items-center text-center`}>
 						{morePosts.length > 0 && <MoreCards posts={morePosts} />}
 					</div> */}

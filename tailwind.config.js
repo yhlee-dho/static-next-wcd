@@ -984,5 +984,6 @@ module.exports = {
   plugins: [
     require('@tailwindcss/typography'),
     require('tailwindcss-children'),
+    require('@tailwindcss/aspect-ratio'),
   ],
 }
