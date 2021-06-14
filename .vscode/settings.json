@@ -1,0 +1,14 @@
+{
+    "webAssetsCompiler.compileOnSave": true,
+    "webAssetsCompiler.exportFormats": [
+        {
+            "format": "expanded",
+            "sourceMap": false
+        }
+    ],
+    "webAssetsCompiler.targetFolders": [
+        {
+            "input": ""
+        }
+    ]
+}

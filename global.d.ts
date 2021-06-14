@@ -7,6 +7,7 @@ declare module '@tailwindcss/typography';
 declare module '@tailwindcss/aspect-ratio';
 
 declare module 'fs';
+declare module 'classnames';
 
 declare module 'to-vfile';
 declare module 'remark-images';

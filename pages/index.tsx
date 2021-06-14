@@ -21,8 +21,8 @@ type Props = {
 };
 
 const Index = ({ allPosts, props, preview }: Props) => {
-	// const morePosts = allPosts.slice(0);
-
+	const morePosts = allPosts.slice(0);
+	
 	return (
 		<>
 			<Layout preview={preview}>

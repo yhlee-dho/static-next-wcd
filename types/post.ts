@@ -1,4 +1,4 @@
-// import Author from 'types/author';
+import Author from 'types/author';
 // import TechIcons from 'types/tech-icons';
 
 interface PostType {
@@ -6,7 +6,7 @@ interface PostType {
 	title: string;
 	date: string;
 	coverImage: string;
-	author: string;
+	author: Author;
 	excerpt: string;
 	ogImage: {
 		url: string;

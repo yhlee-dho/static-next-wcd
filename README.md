@@ -1,5 +1,3 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
 ## Getting Started
 
 First, run the development server:
@@ -38,6 +36,6 @@ yarn install
 
 yarn add next patch-package react react-dom react-markdown react-syntax-highlighter react-typography remark remark-html rehype-raw @fortawesome/fontawesome-svg-core @fortawesome/fontawesome-common-types
 
-yarn add -D @fullhuman/postcss-purgecss postcss postcss-flexbugs-fixes postcss-preset-env tailwindcss@latest postcss@latest autoprefixer@latest @iconify-icons/heroicons-outline @headlessui/react @heroicons/react @tailwindcss/aspect-ratio @tailwindcss/forms @tailwindcss/typography date-fns gray-matter @types/node @types/react tailwindcss-children tailwindcss-gradients typescript vercel
+yarn add -D @fullhuman/postcss-purgecss postcss postcss-flexbugs-fixes postcss-preset-env tailwindcss@latest postcss@latest autoprefixer@latest @iconify-icons/heroicons-outline @headlessui/react @heroicons/react @tailwindcss/aspect-ratio @tailwindcss/forms @tailwindcss/typography date-fns gray-matter @types/node @types/react tailwindcss-children tailwindcss-gradients typescript
 
 npx patch-package @fortawesome/fontawesome-svg-core

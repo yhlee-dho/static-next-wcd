@@ -2,13 +2,17 @@ import { Fragment, useState } from 'react';
 import Container from 'components/container';
 import Post from 'types/post';
 // import Blog from 'components/bodyblog';
-import blog from 'components/blog';
+import MoreCards from 'components/more-cards';
+import { getAllPosts } from 'lib/api';
 
-type BodyProps = {
-	props: string | number
+
+
+type Props = {
+	props: string|number;
 };
 
-const Blog = ({ props }: BodyProps) => {
+const Blog = ({ props }: Props) => {
+
 	const posts = [
 		{
 			title: 'Boost your conversion rate',
@@ -79,6 +83,8 @@ const Blog = ({ props }: BodyProps) => {
 							Our technology scales to your needs.
 						</p>
 					</div>
+
+					{/* posts here */}
 					<div className={`mt-12 max-w-lg mx-auto grid gap-5 lg:grid-cols-3 lg:max-w-none`}>
 						{posts.map((post) => (
 							<div key={post.title} className={`flex flex-col rounded-lg shadow-lg overflow-hidden`}>
@@ -121,6 +127,10 @@ const Blog = ({ props }: BodyProps) => {
 							</div>
 						))}
 					</div>
+
+					<div className={`mt-12 max-w-lg mx-auto grid gap-5 lg:grid-cols-3 lg:max-w-none`}>
+						{morePosts.length > 0 && <MoreCards posts={morePosts}/>}
+					</div>
 				</div>
 			</div>
 		</>
@@ -137,3 +147,19 @@ const Blog = ({ props }: BodyProps) => {
 };
 
 export default Blog;
+
+
+export const getStaticProps = async () => {
+	const allPosts = getAllPosts([
+		'title',
+		'date',
+		'slug',
+		'author',
+		'coverImage',
+		'excerpt'
+	]);
+
+	return {
+		props: { allPosts }
+	};
+}
