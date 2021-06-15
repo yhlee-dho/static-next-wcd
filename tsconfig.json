@@ -79,7 +79,7 @@
     "**/*.ts",
     "**/*.tsx",
     "lib/fas-custom-integration.ts"
-  ],
+, "_backup/reactmarkdown.jsx"  ],
   "exclude": [
     "node_modules"
   ]
