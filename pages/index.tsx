@@ -5,12 +5,10 @@ import Layout from 'components/layout';
 import Head from 'next/head';
 
 import Container from 'components/container';
-import Blog from 'components/blog';
 import Testimonial from 'components/testimonial';
 
 import { CMS_NAME } from 'lib/constants';
-import Post from 'types/post';
-
+import Blog from 'components/blog';
 
 type Props = {
 	props: string|number;

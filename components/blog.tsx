@@ -1,6 +1,6 @@
 import { Fragment, useState } from 'react';
 import Container from 'components/container';
-import Post from 'types/post';
+import PostType from 'types/post';
 // import Blog from 'components/bodyblog';
 import MoreCards from 'components/more-cards';
 import { getAllPosts } from 'lib/api';
